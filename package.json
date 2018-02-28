@@ -1,0 +1,34 @@
+{
+  "name": "log-horizon",
+  "version": "0.0.0",
+  "description": "A fancy logger for CLI apps.",
+  "repository": {
+    "url": "egoist/log-horizon",
+    "type": "git"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "npm run lint && echo 'no tests!'",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "log-update": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "prompts": "^0.1.1",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem"
+  }
+}
