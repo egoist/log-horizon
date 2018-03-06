@@ -37,6 +37,18 @@ Default: `3`
 - `3`: `info`
 - `4`: `debug`
 
+#### options.debug
+
+Type: `boolean`
+
+A shortcut to set `options.logLevel` to `4`.
+
+#### options.quiet
+
+Type: `boolean`
+
+A shortcut to set `options.logLevel` to `1`.
+
 #### options.logUpdate
 
 Type: `boolean`<br>
